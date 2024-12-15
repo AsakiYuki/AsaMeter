@@ -2,7 +2,7 @@ function setToWebNowPlayingPosition()
     y = SKIN:GetY();
     if y >= 200 then
         SKIN:Bang('!SetWindowPosition', 
-            SKIN:GetX(),
+            SKIN:GetX() - 4,
             y,
             0, '0B', 'AsaMeter\\SoundVisualizer'
         );

@@ -41,7 +41,7 @@ function Initialize()
     setupSkin(
         'modern.ini', 'AsaMeter\\MSIAfterBurner',
         '((#SCREENAREAWIDTH# - 150) / 2)',
-        '(5)', 2, 0, 1
+        '(1)', 2, 0, 1
     );
     
     setupSkin(
